@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — Abhishek Misra</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <style>
+    .fade { opacity: 0; transform: translateY(20px); transition: opacity 0.6s ease, transform 0.6s ease; }
+    .fade.visible { opacity: 1; transform: none; }
+  </style>
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav__inner">
+    <a href="index.html" class="nav__logo">Abhishek <span>Misra</span></a>
+    <ul class="nav__links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="works.html">Works</a></li>
+      <li><a href="training.html">Training</a></li>
+      <li><a href="events.html">Events</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <button class="nav__burger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<div class="page">
+  <div class="contact-wrap">
+
+    <div class="fade">
+      <p class="eyebrow">Get in Touch</p>
+      <h1>Contact</h1>
+      <div class="rule"></div>
+      <p style="color:rgba(245,240,232,0.7);line-height:1.8;margin-bottom:2rem;">
+        For collaborations, workshops, festival programming, or general enquiries —
+        reach out directly.
+      </p>
+
+      <div class="contact-info">
+        <div class="ci-item">
+          <p class="ci-item__label">Email</p>
+          <p class="ci-item__value">
+            <a href="mailto:abhi.iec06@gmail.com">abhi.iec06@gmail.com</a>
+          </p>
+        </div>
+        <div class="ci-item">
+          <p class="ci-item__label">Website</p>
+          <p class="ci-item__value">
+            <a href="https://abhishekmisra.com" target="_blank" rel="noopener">abhishekmisra.com</a>
+          </p>
+        </div>
+        <div class="ci-item">
+          <p class="ci-item__label">Based in</p>
+          <p class="ci-item__value">Bangalore, India</p>
+        </div>
+        <div class="ci-item">
+          <p class="ci-item__label">Available for</p>
+          <p class="ci-item__value" style="line-height:1.8;">
+            Performances · Collaborations<br>
+            Workshops · Facilitation<br>
+            Festival Programming
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact-form fade">
+      <!--
+        NOTE: This form uses Formspree for free email delivery.
+        Steps to activate:
+        1. Go to formspree.io and create a free account
+        2. Create a new form — you'll get a form ID like "xyzabcde"
+        3. Replace "YOUR_FORM_ID" below with your actual ID
+        4. That's it — submissions arrive in your email
+      -->
+      <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+        <div class="form-group">
+          <label for="name">Your Name</label>
+          <input type="text" id="name" name="name" placeholder="Name" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" placeholder="your@email.com" required />
+        </div>
+        <div class="form-group">
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" name="subject" placeholder="Collaboration / Workshop / Other" />
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="Tell me about your project or enquiry..." required></textarea>
+        </div>
+        <button type="submit" class="btn btn--solid" style="width:100%;text-align:center;border:none;cursor:pointer;">
+          Send Message
+        </button>
+        <p style="font-size:0.78rem;color:var(--muted);margin-top:1rem;text-align:center;">
+          Or email directly: <a href="mailto:abhi.iec06@gmail.com" style="color:var(--gold);">abhi.iec06@gmail.com</a>
+        </p>
+      </form>
+    </div>
+
+  </div>
+</div>
+
+<footer class="footer">
+  <p class="footer__name">Abhishek Misra</p>
+  <ul class="footer__links">
+    <li><a href="about.html">About</a></li>
+    <li><a href="works.html">Works</a></li>
+    <li><a href="training.html">Training</a></li>
+    <li><a href="events.html">Events</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+  <p class="footer__copy">abhi.iec06@gmail.com · abhishekmisra.com</p>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About — Abhishek Misra</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <style>
+    .fade { opacity: 0; transform: translateY(20px); transition: opacity 0.6s ease, transform 0.6s ease; }
+    .fade.visible { opacity: 1; transform: none; }
+  </style>
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav__inner">
+    <a href="index.html" class="nav__logo">Abhishek <span>Misra</span></a>
+    <ul class="nav__links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="works.html">Works</a></li>
+      <li><a href="training.html">Training</a></li>
+      <li><a href="events.html">Events</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <button class="nav__burger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<div class="page">
+
+  <!-- HERO SPLIT -->
+  <div class="about-hero">
+    <div class="about-hero__image">
+      <!-- REPLACE: <img src="images/about-photo.jpg" alt="Abhishek Misra" /> -->
+      <div class="img-placeholder">
+        <svg width="40" height="40" fill="none" viewBox="0 0 24 24" stroke="currentColor" style="opacity:0.3">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
+            d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+        </svg>
+        <span>Add portrait photo here</span>
+      </div>
+    </div>
+    <div class="about-hero__text">
+      <p class="eyebrow">Theatre Performer · Writer · Facilitator</p>
+      <h1 class="about-hero__name display">
+        Abhishek<br>Misra
+      </h1>
+      <div class="rule"></div>
+      <p style="color:rgba(245,240,232,0.7);line-height:1.8;max-width:480px;margin-top:1rem;">
+        An interdisciplinary theatre practitioner based in Bangalore with over a
+        decade of experience spanning devised performance, physical theatre, playback,
+        forum theatre, and collaborative facilitation.
+      </p>
+    </div>
+  </div>
+
+  <!-- BIO -->
+  <div class="about__bio">
+    <div class="bio__text fade">
+      <p class="eyebrow">Biography</p>
+      <p>
+        Abhishek Misra is an interdisciplinary theatre practitioner based in Bangalore
+        with over a decade of experience spanning devised performance, physical theatre,
+        playback, forum theatre, and collaborative facilitation. Trained in Grotowski
+        practice and the Suzuki Method at the University of South Florida, his work is
+        rooted in embodied storytelling, poetic dramaturgy, and communal exploration.
+      </p>
+      <p>
+        His original works include <em>Encounters</em> — performed at OurTheatre
+        Bangalore and the University of South Florida — and <em>A Moment of Memory</em>,
+        developed in collaboration with Visual Respiration Theatre Company, Bangalore.
+        His most recent creation, <em>Sapna</em>, is a text-based performance loosely
+        drawn from the short narratives of Jorge Luis Borges.
+      </p>
+      <p>
+        He is currently developing <em>Captive</em>, a devised piece drawing on five
+        stories by Franz Kafka, and exploring works rooted in Nirmal Verma and
+        Dostoevsky. His devising practice draws on text, movement cells, montage,
+        object theatre, partner choreography, and personal narrative as core tools.
+      </p>
+      <p>
+        Between 2011 and 2013, he worked with YoursTruly Theatre, Bangalore, on Forum
+        Theatre with school and college students, Playback Theatre, and Mushaira — an
+        improvisational theatre form rooted in Hindustani poetry.
+      </p>
+      <div class="tags">
+        <span class="tag">Physical Theatre</span>
+        <span class="tag">Grotowski</span>
+        <span class="tag">Suzuki Method</span>
+        <span class="tag">Devised Work</span>
+        <span class="tag">Forum Theatre</span>
+        <span class="tag">Playback</span>
+        <span class="tag">Writing</span>
+        <span class="tag">Facilitation</span>
+      </div>
+    </div>
+
+    <div class="bio__details fade">
+      <div class="detail__item">
+        <p class="detail__label">Based in</p>
+        <p class="detail__value">Bangalore, India</p>
+      </div>
+      <div class="detail__item">
+        <p class="detail__label">Languages</p>
+        <p class="detail__value">Hindi · English · Urdu</p>
+      </div>
+      <div class="detail__item">
+        <p class="detail__label">Nationality</p>
+        <p class="detail__value">Indian</p>
+      </div>
+      <div class="detail__item">
+        <p class="detail__label">Date of Birth</p>
+        <p class="detail__value">25 August 1988</p>
+      </div>
+      <div class="detail__item">
+        <p class="detail__label">Education</p>
+        <p class="detail__value">B.E. (Bachelor of Engineering)</p>
+        <p class="detail__value" style="margin-top:0.4rem;font-size:0.9rem;color:var(--muted);">
+          Theatre Practice — University of South Florida, USA (2016)
+        </p>
+      </div>
+      <div class="detail__item">
+        <p class="detail__label">Contact</p>
+        <p class="detail__value">
+          <a href="mailto:abhi.iec06@gmail.com" style="color:var(--gold);">
+            abhi.iec06@gmail.com
+          </a>
+        </p>
+      </div>
+      <div style="margin-top:2rem;">
+        <a href="contact.html" class="btn">Get in Touch</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- SECOND PHOTO SLOT -->
+  <div style="max-width:var(--max);margin:0 auto;padding:0 2rem 5rem;display:grid;grid-template-columns:1fr 1fr;gap:2px;">
+    <div style="aspect-ratio:4/3;background:var(--panel);display:flex;align-items:center;justify-content:center;color:var(--muted);font-size:0.78rem;letter-spacing:0.1em;">
+      <!-- REPLACE: <img src="images/about-2.jpg" alt="Abhishek in rehearsal" /> -->
+      [ Add rehearsal / workshop photo ]
+    </div>
+    <div style="aspect-ratio:4/3;background:var(--panel);display:flex;align-items:center;justify-content:center;color:var(--muted);font-size:0.78rem;letter-spacing:0.1em;">
+      <!-- REPLACE: <img src="images/about-3.jpg" alt="Abhishek in performance" /> -->
+      [ Add performance photo ]
+    </div>
+  </div>
+
+</div>
+
+<footer class="footer">
+  <p class="footer__name">Abhishek Misra</p>
+  <ul class="footer__links">
+    <li><a href="about.html">About</a></li>
+    <li><a href="works.html">Works</a></li>
+    <li><a href="training.html">Training</a></li>
+    <li><a href="events.html">Events</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+  <p class="footer__copy">abhi.iec06@gmail.com · abhishekmisra.com</p>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

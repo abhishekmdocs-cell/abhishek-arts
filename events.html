@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Events — Abhishek Misra</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <style>
+    .fade { opacity: 0; transform: translateY(20px); transition: opacity 0.6s ease, transform 0.6s ease; }
+    .fade.visible { opacity: 1; transform: none; }
+  </style>
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav__inner">
+    <a href="index.html" class="nav__logo">Abhishek <span>Misra</span></a>
+    <ul class="nav__links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="works.html">Works</a></li>
+      <li><a href="training.html">Training</a></li>
+      <li><a href="events.html">Events</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <button class="nav__burger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<div class="page">
+
+  <div class="events-header">
+    <p class="eyebrow">Shows · Workshops · Talks</p>
+    <h1 class="fade">Events</h1>
+    <p class="fade" style="color:var(--muted);margin-top:1rem;max-width:550px;">
+      Upcoming performances, workshops and public events.
+    </p>
+  </div>
+
+  <div class="events-list">
+
+    <!--
+    ══════════════════════════════════════════════════════
+    HOW TO ADD AN EVENT:
+    Copy the block below, paste it above the "events-empty" div,
+    and fill in your details. Change the status class to
+    "event-status--upcoming" for upcoming events.
+    ══════════════════════════════════════════════════════
+
+    <div class="event-item fade">
+      <div class="event-date">
+        <div class="event-date__day">15</div>
+        <div class="event-date__month">Aug</div>
+        <div class="event-date__year">2026</div>
+      </div>
+      <div class="event-info">
+        <p class="event-info__type">Performance</p>
+        <h3 class="event-info__title">Your Show Title</h3>
+        <p class="event-info__venue">Venue Name, City</p>
+        <p class="event-info__desc">Brief description of the event.</p>
+      </div>
+      <span class="event-status event-status--upcoming">Upcoming</span>
+    </div>
+    -->
+
+    <!-- SAMPLE EVENT — delete this when you add real ones -->
+    <div class="event-item fade">
+      <div class="event-date">
+        <div class="event-date__day">TBA</div>
+        <div class="event-date__month"></div>
+        <div class="event-date__year">2026</div>
+      </div>
+      <div class="event-info">
+        <p class="event-info__type">Work-in-Progress</p>
+        <h3 class="event-info__title">Captive — Showing</h3>
+        <p class="event-info__venue">OurTheatre, Bangalore</p>
+        <p class="event-info__desc">
+          A work-in-progress showing of <em>Captive</em>, devised from five stories by Franz Kafka.
+          Date and details to be announced.
+        </p>
+      </div>
+      <span class="event-status event-status--upcoming">Upcoming</span>
+    </div>
+
+    <div class="events-empty fade" style="display:none;" id="no-events">
+      No upcoming events at this time.<br>
+      <span style="font-size:1rem;color:var(--muted);font-family:var(--font-body);">
+        Check back soon or <a href="contact.html" style="color:var(--gold);">get in touch</a>.
+      </span>
+    </div>
+
+  </div>
+
+  <!-- PAST EVENTS note -->
+  <div style="max-width:var(--max);margin:0 auto;padding:0 2rem 6rem;">
+    <div style="border-top:1px solid var(--border);padding-top:3rem;">
+      <p class="eyebrow">Archive</p>
+      <p style="color:var(--muted);font-size:0.95rem;margin-top:0.5rem;">
+        For past performances and a full production history, visit the
+        <a href="works.html" style="color:var(--gold);">Works</a> page.
+      </p>
+    </div>
+  </div>
+
+</div>
+
+<footer class="footer">
+  <p class="footer__name">Abhishek Misra</p>
+  <ul class="footer__links">
+    <li><a href="about.html">About</a></li>
+    <li><a href="works.html">Works</a></li>
+    <li><a href="training.html">Training</a></li>
+    <li><a href="events.html">Events</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+  <p class="footer__copy">abhi.iec06@gmail.com · abhishekmisra.com</p>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

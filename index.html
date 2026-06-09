@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Abhishek Misra — Theatre Performer & Writer</title>
+  <meta name="description" content="Abhishek Misra is an interdisciplinary theatre performer, writer and facilitator based in Bangalore, India." />
+  <link rel="stylesheet" href="css/style.css" />
+  <style>
+    .fade { opacity: 0; transform: translateY(24px); transition: opacity 0.7s ease, transform 0.7s ease; }
+    .fade.visible { opacity: 1; transform: none; }
+  </style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="nav">
+  <div class="nav__inner">
+    <a href="index.html" class="nav__logo">Abhishek <span>Misra</span></a>
+    <ul class="nav__links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="works.html">Works</a></li>
+      <li><a href="training.html">Training</a></li>
+      <li><a href="events.html">Events</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <button class="nav__burger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero__text">
+    <p class="eyebrow">Bangalore, India</p>
+    <h1 class="hero__name">
+      Theatre<br><em>Performer</em><br>& Writer
+    </h1>
+    <p class="hero__tagline">
+      Physical Theatre <span>·</span> Devised Work <span>·</span> Facilitator
+    </p>
+    <p class="hero__intro">
+      Over a decade of embodied storytelling — from Grotowski practice in Florida
+      to devised theatre on Bangalore stages and beyond.
+    </p>
+    <div class="hero__cta">
+      <a href="works.html" class="btn btn--solid">View Works</a>
+      <a href="about.html" class="btn">About</a>
+    </div>
+  </div>
+  <div class="hero__image">
+    <!-- REPLACE: swap the placeholder div below with:
+         <img src="images/hero.jpg" alt="Abhishek Misra in performance" />
+    -->
+    <div class="hero__placeholder">
+      <svg width="48" height="48" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
+          d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+      </svg>
+      <span>Add hero photo here</span>
+      <small style="font-size:0.72rem;opacity:0.5">Replace in index.html → hero__image</small>
+    </div>
+  </div>
+</section>
+
+<!-- FEATURED WORKS -->
+<section class="featured">
+  <div class="featured__inner">
+    <p class="eyebrow fade">Selected Works</p>
+    <h2 class="display fade" style="font-size:clamp(2rem,3.5vw,3rem);font-family:var(--font-display);font-weight:300;">
+      Recent Productions
+    </h2>
+    <div class="featured__grid">
+
+      <div class="featured__card fade">
+        <div class="featured__card-img">
+          <!-- REPLACE: <img src="images/encounters.jpg" alt="Encounters" /> -->
+          <div class="featured__placeholder">[ Encounters — production photo ]</div>
+        </div>
+        <div class="featured__card-body">
+          <p class="featured__card-year">2017 – 18</p>
+          <h3 class="featured__card-title">Encounters</h3>
+          <p class="featured__card-venue">OurTheatre, Bangalore · USF, USA</p>
+        </div>
+      </div>
+
+      <div class="featured__card fade">
+        <div class="featured__card-img">
+          <div class="featured__placeholder">[ A Moment of Memory — production photo ]</div>
+        </div>
+        <div class="featured__card-body">
+          <p class="featured__card-year">2014 – 15</p>
+          <h3 class="featured__card-title">A Moment of Memory</h3>
+          <p class="featured__card-venue">Visual Respiration, Bangalore</p>
+        </div>
+      </div>
+
+      <div class="featured__card fade">
+        <div class="featured__card-img">
+          <div class="featured__placeholder">[ Sapna — production photo ]</div>
+        </div>
+        <div class="featured__card-body">
+          <p class="featured__card-year">2019 – 20</p>
+          <h3 class="featured__card-title">Sapna</h3>
+          <p class="featured__card-venue">OurTheatre, Bangalore</p>
+        </div>
+      </div>
+
+    </div>
+    <div style="text-align:center;margin-top:3rem;">
+      <a href="works.html" class="btn fade">All Productions</a>
+    </div>
+  </div>
+</section>
+
+<!-- DISCIPLINES -->
+<div class="disciplines">
+  <div>
+    <p class="eyebrow fade">Practice</p>
+    <h2 class="display fade" style="font-size:clamp(2rem,3vw,2.8rem);font-family:var(--font-display);font-weight:300;line-height:1.2;">
+      Ways of<br>Working
+    </h2>
+    <div class="rule"></div>
+    <p class="fade" style="color:rgba(245,240,232,0.6);font-size:0.95rem;line-height:1.8;">
+      A practice built across physical theatre, devised work, and collaborative facilitation —
+      drawing on Grotowski, Suzuki, Viewpoints and personal narrative.
+    </p>
+  </div>
+  <div class="disc__list">
+    <div class="disc__item fade">Physical Theatre</div>
+    <div class="disc__item fade">Devised Performance</div>
+    <div class="disc__item fade">Grotowski Practice</div>
+    <div class="disc__item fade">Suzuki Method</div>
+    <div class="disc__item fade">Forum Theatre</div>
+    <div class="disc__item fade">Playback Theatre</div>
+    <div class="disc__item fade">Writing & Dramaturgy</div>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <p class="footer__name">Abhishek Misra</p>
+  <ul class="footer__links">
+    <li><a href="about.html">About</a></li>
+    <li><a href="works.html">Works</a></li>
+    <li><a href="training.html">Training</a></li>
+    <li><a href="events.html">Events</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+  <p class="footer__copy">abhi.iec06@gmail.com · abhishekmisra.com</p>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
